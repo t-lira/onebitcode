@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Criando uma tabela</title>
+
+    <style>
+      *{
+        padding: 0;
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      body{
+        background-color: #121212;
+      }
+
+      header{
+        background-color: black;
+        color: white;
+        text-align: center;
+        padding: 5px;
+      }
+
+      .home{
+        height: 90vh;
+        background: url(img/GettyImages-460712793.webp);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+      .container{
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+        padding: 90px;
+        background-color: #1212128a;
+      }
+
+      footer{
+        background-color: black;
+        color: white;
+        padding: 5px;
+        text-align: center;
+      }
+
+      table{
+        border: 1px solid white;
+        padding: 10px;
+        color: white;
+        font-size: 1.1em;
+        border-radius: 10px;
+      }
+
+      th,td{
+        padding: 7px;
+        border: 1px solid white;
+        border-radius: 5px;
+      }
+    </style>
+
+  </head>
+  <body>
+    <header>
+      <h1>Criando Tabela</h1>
+    </header>
+    <main>
+
+      <section class="home">
+
+        <div class="container">
+          <table>
+            <caption><h2>Massas no Sistema Solar </h2></caption>
+            <thead>
+              <tr>
+                <th>Componente</th>
+                <th>Massa</th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr>
+                <td>Sol</td>
+                <td>99,85%</td>
+              </tr>
+              <tr>
+                <td>Júpiter</td>
+                <td>0,10%</td>
+              </tr>
+              <tr>
+                <td>Demais Planetas</td>
+                <td>0,04%</td>
+              </tr>
+              <tr>
+                <td>Cometas </td>
+                <td>0,01% (?)</td>
+              </tr>
+              <tr>
+                <td>Satélites e anéis</td>
+                <td>0,000 05%</td>
+              </tr>
+              <tr>
+                <td>Asteroides</td>
+                <td>0,000 000 2%</td>
+              </tr>
+              <tr>
+                <td>Meteoritos e poeira</td>
+                <td>0.000 000 1% (?)</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p>onebitcode 2023</p>
+    </footer>
+  </body>
+</html>
