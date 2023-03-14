@@ -1,0 +1,25 @@
+@charset "utf-8";
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  background-color: grey;
+  height: 100vh;
+
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr 1fr;
+  gap: 5px 10px;
+  grid-auto-rows: minmax(300px, auto);
+
+}
+
+.contentItens{
+  background-color: white;
+  font-size: 1.4em;
+  border: 2px solid black;
+  padding: 10px;
+}
+
